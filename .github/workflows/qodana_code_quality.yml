@@ -6,7 +6,7 @@ on:
     branches:
       - main 
       - 'releases/*' 
-      - 'feat/**' 
+      - 'feat-**' 
 
 jobs:
   qodana:
